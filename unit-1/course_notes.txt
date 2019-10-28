@@ -1,0 +1,26 @@
+### NOTES
+
+- Modulus operator useful to test is number is even/odd
+	- print(NUM % 2)
+	- Check if (NUM % 2) == 0
+	- 0 means it's even
+
+- Result of division operator '/' is always a floating point number, unless you use '//'
+	- print(10/2) = 5.0
+	- print(10//2) = 5
+
+- ':' designates block scope?
+
+- block comment is ''' to start/end
+
+
+### Truthey/Falsey
+- Empty string is inherently 'falsey'
+	- Can be used with form validation, to check if user submitted empty field
+- The number 0 is inherently 'falsey'
+
+
+### For loop
+- Check into 'running sum'
+- Updated operator '+='
+	- Same as 'total = total + sum'

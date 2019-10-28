@@ -24,3 +24,6 @@
 - Check into 'running sum'
 - Updated operator '+='
 	- Same as 'total = total + sum'
+
+- 'sum' is reserved word/function
+- strings are immutable

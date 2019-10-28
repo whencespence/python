@@ -11,7 +11,7 @@
 # Write a program to calculate the sum of all the even numbers between 1000 and 10,000
 even_numbers = 0
 
-for index in range (1000, 10000):
+for index in range (1000, 10001):
 	if index % 2 == 0:
 		even_numbers += index
-print("The sum of even numbers between 1000 and 10,000 is:", even_numbers)
+print(f'The sum of even numbers between 1000 and 10,000 is: {even_numbers}')

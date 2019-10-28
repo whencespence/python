@@ -5,5 +5,5 @@ spaces = 0
 
 for letter in string:
 	if letter == ' ':
-		spaces = spaces + len(letter)
+		spaces += 1
 print(spaces)

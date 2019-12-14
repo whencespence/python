@@ -1,0 +1,17 @@
+{
+  "title": "Song",
+  "artist": "Beatles",
+  "length": 2.0
+}{
+  "title": "Another Song",
+  "artist": "Band",
+  "length": 3.5
+}{
+  "title": "Best Song",
+  "artist": "The Band",
+  "length": 2.5
+}{
+  "title": "Better Song",
+  "artist": "Beatles",
+  "length": 2.8
+}

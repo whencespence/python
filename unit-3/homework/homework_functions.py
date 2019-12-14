@@ -34,7 +34,6 @@ def pivot_split(my_list, my_num):
 			left.append(num)
 		else:
 			right.append(num)
-
 	# returns two lists / builds lists on this line
 	return [left, right]
 
@@ -53,4 +52,4 @@ def is_isogram(string):
 			already_seen.append(character)
 	return True
 
-print(is_isogram("hello"))
+print(is_isogram('hello'))

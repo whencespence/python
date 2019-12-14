@@ -27,8 +27,17 @@
 
 
 # Loop over your full name and print only vowels
-name = 'Christina Spencer'
+# name = 'Christina Spencer'
 
-for letter in name:
-	if letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u':
-		print(letter)
+# for letter in name:
+# 	if letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u':
+# 		print(letter)
+
+
+my_numbers = [3, 5, 17, 11, 21, 53, 10, 27, 45, 80]
+smallest = my_numbers[0]
+
+for number in my_numbers:
+	if number < smallest:
+		smallest = number
+print(smallest)

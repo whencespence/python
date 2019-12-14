@@ -1,0 +1,52 @@
+{
+	"class": "Cohort4",
+	"start": "2019-10-16",
+	"end": "2019-12-18",
+	"students": [
+		{
+			"Name": "Christina",
+			"job": "Developer",
+			"city": "Toronto"
+		},
+		{
+			"Name": "Other1",
+			"job": "OtherDev1"
+		},
+		{
+			"Name": "Other2",
+			"job": "OtherDev2"
+		},
+		{
+			"Name": "Other3",
+			"job": "OtherDev3"
+		},
+		{
+			"Name": "Other4",
+			"job": "OtherDev4"
+		},
+		{
+			"Name": "Other5",
+			"job": "OtherDev5"
+		},
+		{
+			"Name": "Other6",
+			"job": "OtherDev6"
+		},
+		{
+			"Name": "Other7",
+			"job": "OtherDev7"
+		},
+		{
+			"Name": "Other8",
+			"job": "OtherDev8"
+		},
+		{
+			"Name": "Other9",
+			"job": "OtherDev9"
+		},
+		{
+			"Name": "Other10",
+			"job": "OtherDev10"
+		}
+	]
+}

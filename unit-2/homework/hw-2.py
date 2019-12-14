@@ -6,31 +6,35 @@
 # Contract workers - who earn $120 per hour, but pay 25% tax on their salary
 	# Contract workers do not have overtime hours
 
-worker_type = 'part_time'
+worker_type = 'full_time'
 hours_worked = 50
 weekly_wage = 0
 
-# Switch value of weekly_wage, but print once
+# Switch value of weekly_wage, print once
 
 # If worker is contract
-# if worker_type == 'contract':
-# 	hours_worked = hours_worked * 120
-# 	print("Weekly wage =", hours_worked - (hours_worked * 0.25))
+if worker_type == 'contract':
+	weekly_wage = (hours_worked * 120) - (hours_worked * 0.25)
+	# print('Weekly wage =', hours_worked - (hours_worked * 0.25))
 
-# # If worker is full-time
-# elif worker_type == 'full_time':
-# 	if hours_worked > 40:
-# 		hours_worked = (hours_worked - 40) * 60
-# 		print('Weekly wage + overtime =', hours_worked + 2000)
-# 	else:
-# 		print("Weekly wage =", hours_worked * 50)
+# If worker is full-time
+elif worker_type == 'full_time':
+	if hours_worked > 40:
+		hours_worked = (hours_worked * 50)
+		weekly_wage = hours_worked - 40) * 50
+		weekly_wage = hours_worked * 60
+		# hours_worked = (hours_worked - 40) * 60
+		# print('Weekly wage + overtime =', hours_worked + 2000)
+	else:
+		weekly_wage = hours_worked * 50
+		# print('Weekly wage =', hours_worked * 50)
 
-# # If worker is part-time
-# elif worker_type == 'part_time':
-# 	if hours_worked > 20:
-# 		hours_worked = (hours_worked - 20) * 70
-# 		print('Weekly wage + overtime =', hours_worked + 1300)
-# 	else:
-# 		print('Weekly wage =', hours_worked * 65)
+# If worker is part-time
+elif worker_type == 'part_time':
+	if hours_worked > 20:
+		weekly_wage = (hours_worked - 20 * 65) * 70
+		# print('Weekly wage + overtime =', hours_worked + 1300)
+	else:
+		weekly_wage = hours_worked * 65
 
-# print(weekly_wage)
+print(weekly_wage)
